@@ -4,8 +4,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('ArtisanTest::home');
+        return view('ArtisanGui::home');
     }
-
-    public function test(){ return "yo"; }
 }

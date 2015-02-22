@@ -1,3 +1,5 @@
 <?php namespace ArtisanGui;
 
-Route::get('artisan', 'ArtisanGui\HomeController@index');
+use Route;
+
+Route::get('artisan', 'ArtisanGui\Controllers\HomeController@index');
