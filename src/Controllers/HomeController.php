@@ -1,4 +1,4 @@
-<?php namespace ArtisanGui;
+<?php namespace ArtisanGui\Controllers;
 
 class HomeController extends Controller
 {
@@ -6,4 +6,6 @@ class HomeController extends Controller
     {
         return view('ArtisanTest::home');
     }
+
+    public function test(){ return "yo"; }
 }

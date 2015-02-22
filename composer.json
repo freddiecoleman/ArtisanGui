@@ -1,0 +1,19 @@
+{
+  "name": "freddiecoleman/ArtisanGui",
+  "description": "A GUI for Artisan commands to speed up development.",
+  "keywords": [
+	"php"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Freddie Coleman",
+	  "email": "f.coleman@hotmail.co.uk"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "ArtisanGui\\": "src/"
+	}
+  }
+}
